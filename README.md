@@ -2,6 +2,10 @@
 
 A Ruby/Nodejs base image built with Bitnami's Minideb image. Ideal for Ruby/Nodejs deployments
 
+## Build Status
+
+[![Image Layers](https://img.shields.io/docker/cloud/build/dtsdwarak/minideb-ruby-nodejs?style=plastic)](https://hub.docker.com/r/dtsdwarak/minideb-ruby-nodejs/builds)
+
 ## License
 
 This Docker image is licensed under the [MIT License](https://github.com/dtsdwarak/minideb-ruby-nodejs/blob/main/LICENSE).
