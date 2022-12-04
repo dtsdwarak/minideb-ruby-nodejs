@@ -45,7 +45,7 @@ ENV PATH=/usr/local/bundle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
 RUN mkdir -p "$GEM_HOME" "$BUNDLE_BIN"  \
 	&& chmod 777 "$GEM_HOME" "$BUNDLE_BIN"
 CMD ["irb"]
-RUN curl -sL https://deb.nodesource.com/setup_14.x | /bin/bash -  \
+RUN curl -sL https://deb.nodesource.com/setup_16.x | /bin/bash -  \
 	&& apt-get install -y nodejs
 RUN apt-get install -y build-essential
 
